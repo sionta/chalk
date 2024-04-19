@@ -1,19 +1,19 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-gem "jekyll", "3.9.4"
+gem "jekyll", "~> 3.9"
 
 group :jekyll_plugins do
-    gem "autoprefixer-rails"
-    gem "html-proofer"
-    gem "image_optim"
-    gem "jekyll-assets", git: "https://github.com/envygeeks/jekyll-assets"
-    gem "jekyll-paginate"
-    gem "jekyll-sitemap"
-    gem "jemoji"
-    gem "mini_magick"
-    gem "sass"
-    gem "uglifier"
+    gem "autoprefixer-rails", "~> 10.4"
+    gem "html-proofer", "~> 5.0"
+    gem "image_optim", "~> 0.31"
+    gem "jekyll-assets", git: "https://github.com/envygeeks/jekyll-assets", branch: "master"
+    gem "jekyll-paginate", "~> 1.1"
+    gem "jekyll-sitemap", "~> 1.4"
+    gem "jemoji", "~> 0.13"
+    gem "mini_magick", "~> 4.12"
+    # gem "sass", "~> 3.7"
+    gem "uglifier", "~> 4.2"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
